@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:background="#00e5ff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="fitCenter"
+            android:id="@+id/img_into"
+            android:src="@drawable/ic_login"
+            android:layout_marginTop="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="128dp"
+            android:layout_height="128dp" />
+        <TextView
+            android:id="@+id/txt_intro"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img_into"
+            android:textSize="24sp"
+            android:text="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "613868998911",
+    "firebase_url": "https://synccontact-cea44.firebaseio.com",
+    "project_id": "synccontact-cea44",
+    "storage_bucket": "synccontact-cea44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613868998911:android:2f8416025ad6b253",
+        "android_client_info": {
+          "package_name": "com.tiny.synccontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613868998911-isfe66gd4ntue2tps7qebmgp2vntf98b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiny.synccontact",
+            "certificate_hash": "c67999d8574799b2456d9fe72ce5a27f08734c6d"
+          }
+        },
+        {
+          "client_id": "613868998911-c7hrc0mqo5th2k6rih23se2eahvc1hsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8gp0FPMpw1kNY0a7JGTClYlomHP_x-rQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613868998911-c7hrc0mqo5th2k6rih23se2eahvc1hsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

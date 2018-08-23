@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        app:cardBackgroundColor="#00b2cc"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/btn_next"
+            android:padding="8dp"
+            android:text="NEXT"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"
+        app:cardBackgroundColor="#00b2cc"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/btn_previous"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:text="PREV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        app:cardBackgroundColor="#00b2cc"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/btn_skip"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:text="SKIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+    <android.support.design.widget.TabLayout
+        android:layout_marginBottom="70dp"
+        android:id="@+id/tabDots"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"/>
+</RelativeLayout>
+</layout>
